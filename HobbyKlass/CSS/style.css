@@ -1,0 +1,103 @@
+@font-face {
+    font-family:"Circe-Regular" ;
+    src: url(../Fonts/CirceFont/Circe-Regular.ttf);
+}
+@font-face {
+    font-family:"Bold" ;
+    src: url(../Fonts/UniformFont/Uniform\ Bold.ttf);
+}
+body {
+    font-size: 15px;
+    background: url('../Images/фон 5.jpg') no-repeat center  / cover;
+    overflow-x: hidden;
+}
+.container-fluid p {
+    color: white;
+    font-size: 25px;
+}
+.row{
+    color: aliceblue;
+    font-family:"Circe-Regular";
+}
+.row ul {
+    list-style-type: none;
+}
+.col{
+    text-decoration: none;
+}
+
+.container-fluid h1 {
+    color: white;
+}
+.bg-light {
+    --bs-bg-opacity: 0;
+
+}
+.border{
+    border: opx solid !important;
+    border-top-color: rgb(222, 226, 230) !important;
+    border-top-style: solid !important;
+    border-top-width: 0px !important;
+    border-right-color: rgb(222, 226, 230) !important;
+    border-right-style: solid !important;
+    border-right-width: 0px!important;
+    border-bottom-color: rgb(222, 226, 230) !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 0px!important;
+    border-left-color: rgb(222, 226, 230) !important;
+    border-left-style: solid !important;
+    border-left-width: 0px!important;
+    border-image-source: initial !important;
+    border-image-slice: initial !important;
+    border-image-width: initial !important;
+    border-image-outset: initial !important;
+    border-image-repeat: initial !important;
+}
+
+
+
+.carousel-item{
+    width: 200px !important;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.carousel-item img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 500px;
+    height: 475px !important;
+    background: url('../Images/Tel.png') no-repeat center center / contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .slider{
+    background-image: url(../Images/Tel.png);
+    background-position: 90% 10%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
